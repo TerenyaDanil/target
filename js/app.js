@@ -106,9 +106,9 @@ let header = gsap.timeline({
 });
 
 
-header.from(".bot-header__man", { duration: 1.7, ease: "power4.out", opacity: 0, x: 250 }, "+=0.2")
+header.from(".bot-header__man", { duration: 1.5, ease: "power4.out", opacity: 0, x: 250 }, "+=0.2")
     .from(".bot-header__name", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".bot-header__title", { duration: 2, ease: "power4.out", opacity: 0, x: -350 }, "-=0.4")
+    .from(".bot-header__title", { duration: 1.6, ease: "power4.out", opacity: 0, x: -350 }, "-=0.4")
     .from(".bot-header__btn", { duration: 1.7, ease: "power4.out", opacity: 0, x: -150 }, "-=0.8")
 
 
@@ -125,9 +125,9 @@ let about = gsap.timeline({
     }
 });
 
-about.from(".about__title", { duration: 1.5, ease: "power4.out", opacity: 0, y: 350 })
-    .from(".about__text", { duration: 1.6, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".about__dop", { duration: 2, ease: "power4.out", opacity: 0, y: 50 }, "-=0.8")
+about.from(".about__title", { duration: 1.2, ease: "power4.out", opacity: 0, y: 350 })
+    .from(".about__text", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.5")
+    .from(".about__dop", { duration: 1.3, ease: "power4.out", opacity: 0, y: 50 }, "-=0.5")
 
 
 
@@ -142,13 +142,13 @@ let info = gsap.timeline({
     }
 });
 
-info.from(".info__title", { duration: 1.6, ease: "power4.out", opacity: 0, y: 150 })
-    .from(".inner-info__item-1", { duration: 1.3, ease: "power4.out", opacity: 0, x: -150 }, "-=0.6")
-    .from(".inner-info__item-2", { duration: 1.3, ease: "power4.out", opacity: 0, x: 150 }, "-=0.6")
-    .from(".inner-info__item-3", { duration: 1.3, ease: "power4.out", opacity: 0, x: -150 }, "-=0.6")
-    .from(".inner-info__item-4", { duration: 1.3, ease: "power4.out", opacity: 0, x: 150 }, "-=0.6")
-    .from(".inner-info__item-5", { duration: 1.3, ease: "power4.out", opacity: 0, x: -150 }, "-=0.6")
-    .from(".inner-info__item-6", { duration: 1.3, ease: "power4.out", opacity: 0, x: 150 }, "-=0.6")
+info.from(".info__title", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 })
+    .from(".inner-info__item-1", { duration: 0.8, ease: "power4.out", opacity: 0, x: -150 }, "-=0.6")
+    .from(".inner-info__item-2", { duration: 0.8, ease: "power4.out", opacity: 0, x: 150 }, "-=0.6")
+    .from(".inner-info__item-3", { duration: 0.8, ease: "power4.out", opacity: 0, x: -150 }, "-=0.6")
+    .from(".inner-info__item-4", { duration: 0.8, ease: "power4.out", opacity: 0, x: 150 }, "-=0.6")
+    .from(".inner-info__item-5", { duration: 0.8, ease: "power4.out", opacity: 0, x: -150 }, "-=0.6")
+    .from(".inner-info__item-6", { duration: 0.8, ease: "power4.out", opacity: 0, x: 150 }, "-=0.6")
 
 
 let forr = gsap.timeline({
@@ -161,11 +161,11 @@ let forr = gsap.timeline({
     }
 });
 
-forr.from(".for__title", { duration: 1.6, ease: "power4.out", opacity: 0, y: 250 })
-    .from(".for-inner__item-1", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".for-inner__item-2", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".for-inner__item-3", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".for-inner__item-4", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+forr.from(".for__title", { duration: 1.2, ease: "power4.out", opacity: 0, y: 250 })
+    .from(".for-inner__item-1", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".for-inner__item-2", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".for-inner__item-3", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".for-inner__item-4", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
 
 
 let cource = gsap.timeline({
@@ -179,15 +179,15 @@ let cource = gsap.timeline({
 });
 
 
-cource.from(".do__title", { duration: 1.6, ease: "power4.out", opacity: 0, y: 250 })
-    .from(".inner-do__item-1", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-2", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-3", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-4", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-5", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-6", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-7", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".inner-do__item-8", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+cource.from(".do__title", { duration: 1.2, ease: "power4.out", opacity: 0, y: 250 })
+    .from(".inner-do__item-1", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-2", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-3", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-4", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-5", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-6", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-7", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-do__item-8", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
 
 
 let speakers = gsap.timeline({
@@ -200,15 +200,15 @@ let speakers = gsap.timeline({
     }
 });
 
-speakers.from(".speakers__title", { duration: 1.6, ease: "power4.out", opacity: 0, y: 250 })
-    .from(".wrap-speakers__img-1", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".speakers__text-1", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".wrap-speakers__img-2", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".speakers__text-2", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".wrap-speakers__img-3", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".speakers__text-3", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".wrap-speakers__img-4", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
-    .from(".speakers__text-4", { duration: 1, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+speakers.from(".speakers__title", { duration: 1.2, ease: "power4.out", opacity: 0, y: 250 })
+    .from(".wrap-speakers__img-1", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".speakers__text-1", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".wrap-speakers__img-2", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".speakers__text-2", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".wrap-speakers__img-3", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".speakers__text-3", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".wrap-speakers__img-4", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".speakers__text-4", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
 
 
 let program = gsap.timeline({
@@ -221,16 +221,16 @@ let program = gsap.timeline({
     }
 });
 
-program.from(".program__title", { duration: 1.6, ease: "power4.out", opacity: 0, y: 150 })
-    .from(".inner-program__item-1", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-2", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-3", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-4", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-5", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-6", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-7", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-8", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
-    .from(".inner-program__item-9", { duration: 1.3, ease: "power4.out", opacity: 0, y: 150 }, "-=0.8")
+program.from(".program__title", { duration: 1.2, ease: "power4.out", opacity: 0, y: 150 })
+    .from(".inner-program__item-1", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-2", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-3", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-4", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-5", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-6", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-7", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-8", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
+    .from(".inner-program__item-9", { duration: 0.8, ease: "power4.out", opacity: 0, y: 150 }, "-=0.6")
 
 
 
@@ -246,6 +246,21 @@ let tarif = gsap.timeline({
 });
 
 tarif.from(".tarif__title", { duration: 1.6, ease: "power4.out", opacity: 0, y: 250 })
+    .from(".inner-tarif__text-item-1", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-2", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-3", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-4", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-5", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-6", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-7", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-8", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-9", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-10", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-11", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-12", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-13", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__text-item-14", { duration: 0.8, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
+    .from(".inner-tarif__dop", { duration: 1, ease: "power4.out", opacity: 0, y: 50 }, "-=0.6")
 
 
 

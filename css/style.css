@@ -892,6 +892,7 @@ img {
 .cases__slider-img img {
   border-radius: 50%;
   border: 3px solid #fff;
+  max-width: 186px;
 }
 
 .cases__slider-name {
@@ -910,6 +911,7 @@ img {
 
 .cases__slider-text span {
   font-weight: 700;
+  display: block;
 }
 
 .cases__slider-text span:nth-child(1) {
@@ -1011,11 +1013,16 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #39393b;
+  background-color: #3c3c3e;
   border-radius: 15px;
   border: 4px solid #ffffff;
   overflow: hidden;
   min-height: 570px;
+  padding: 20px;
+}
+
+.rev__slider-img img {
+  max-width: 100%;
 }
 
 .rev__slider-next {
@@ -1244,6 +1251,13 @@ img {
   position: relative;
   color: #343030;
   padding: 130px 25px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .inner-tarif__wrap-prem {
@@ -1267,6 +1281,8 @@ img {
 .inner-tarif__text {
   font-size: 1.8rem;
   text-align: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
 }
 
 .inner-tarif__text-title {
@@ -1317,8 +1333,7 @@ img {
   font-family: Gilroy;
   font-weight: 900;
   letter-spacing: 2px;
-  padding: 20px 0px 0px 0px;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px;
 }
 
 .inner-tarif__price span {
@@ -1334,7 +1349,6 @@ img {
 
 .inner-tarif__btn {
   text-align: center;
-  margin: 30px 0px 0px 0px;
 }
 
 .inner-tarif__btn a {
