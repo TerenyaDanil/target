@@ -1127,6 +1127,40 @@ img {
   margin: 0px 0px 70px 0px;
 }
 
+.inner-program__prem {
+  margin: 0px 0px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.inner-program__prem img {
+  margin: 0px 0px 0px 5px;
+  max-width: 50px;
+}
+
+.inner-program__vip {
+  margin: 0px 0px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6rem;
+  opacity: 0.8;
+}
+
+.inner-program__vip img {
+  margin: 0px 0px 0px 5px;
+  max-width: 50px;
+}
+
 .inner-program__fir {
   padding: 40px 30px 10px;
 }
@@ -1185,6 +1219,16 @@ img {
   font-family: Gilroy;
   color: #f3f3f3;
   z-index: 0;
+}
+
+.inner-program__num-b {
+  font-size: 10rem;
+  right: auto;
+  bottom: -20px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 .inner-program__btn {
@@ -1250,7 +1294,7 @@ img {
   margin: 0px 16px;
   position: relative;
   color: #343030;
-  padding: 130px 25px 50px;
+  padding: 20px 25px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1269,12 +1313,8 @@ img {
 }
 
 .inner-tarif__img {
-  position: absolute;
-  left: 50%;
-  top: 20px;
-  -webkit-transform: translate(-50%, 0);
-      -ms-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
+  position: relative;
+  margin: 0px 0px 20px 0px;
   z-index: 10;
 }
 
@@ -1333,6 +1373,7 @@ img {
   font-family: Gilroy;
   font-weight: 900;
   letter-spacing: 2px;
+  padding: 20px 0px 0px 0px;
   margin: 20px 0px;
 }
 
@@ -1342,9 +1383,41 @@ img {
   -webkit-transform: translate(-50%, 0);
       -ms-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  top: 20px;
+  top: -20px;
   font-size: 2.4rem;
   opacity: 0.6;
+  width: 100%;
+}
+
+.inner-tarif__price:before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0) rotate(-5deg);
+      -ms-transform: translate(-50%, 0) rotate(-5deg);
+          transform: translate(-50%, 0) rotate(-5deg);
+  width: 0px;
+  height: 3px;
+  background-color: #fdbe77;
+  z-index: 10;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.inner-tarif__price.active:before {
+  content: "";
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0) rotate(-5deg);
+      -ms-transform: translate(-50%, 0) rotate(-5deg);
+          transform: translate(-50%, 0) rotate(-5deg);
+  width: 120px;
+  height: 3px;
+  background-color: #fdbe77;
+  z-index: 10;
 }
 
 .inner-tarif__btn {
@@ -1915,6 +1988,10 @@ img {
 
   .inner-tarif__wrap {
     margin: 0px 0px 100px 0px;
+  }
+
+  .inner-tarif__img {
+    text-align: center;
   }
 
   .inner-tarif__img img {
