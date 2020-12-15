@@ -1428,6 +1428,15 @@ img {
   padding: 30px 80px;
 }
 
+.inner-tarif__btn + .inner-tarif__btn {
+  margin: 20px 0px 0px 0px;
+}
+
+.inner-tarif__btn + .inner-tarif__btn a {
+  font-size: 1.4rem;
+  padding: 20px 40px;
+}
+
 .inner-tarif__dop {
   position: absolute;
   right: 120px;
